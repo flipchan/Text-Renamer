@@ -8,12 +8,12 @@ from PyQt5.QtWidgets import QFileDialog, QFileSystemModel
 
 
 class TextRenamer(QtWidgets.QMainWindow):
-    ui = None
+    ui = None# plz use self.function name
     
-    currentFullNames = None
-    currentExtensions = None
-    path = None
-    currentIndex = None
+    currentFullNames = None#this
+    currentExtensions = None#this
+    path = None#this
+    currentIndex = None#this
     
     showExtension = False
 
